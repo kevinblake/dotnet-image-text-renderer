@@ -1,0 +1,21 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "title";
+}
+
+<h2>Rendering text with images.</h2>
+
+Example:
+<p>
+    /imagehandler.axd?text=Hello%20World&font=arial&fontSize=50&width=500&height=100
+    <br />
+    <img src="/imagehandler.axd?text=Hello%20World&font=arial&fontSize=50&width=500&height=100" />
+</p>
+
+<p>
+    /imagehandler.axd?text=Hello%20World&font=Comic%20Sans%20MS&fontSize=50&width=500&height=100
+    <br />
+    <img src="/imagehandler.axd?text=Hello%20World&font=Comic%20Sans%20MS&fontSize=50&width=500&height=100" />
+</p>
+
