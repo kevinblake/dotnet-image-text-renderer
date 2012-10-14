@@ -1,7 +1,8 @@
 Image Text Renderer
 ===================
 
-Really simple HttpHandler to render text within images.  The library behind the handler also supports stacking of text over existing images, but this is not exposed to the handler directly (yet).
+Really simple HttpHandler to render text within images.  The library behind the handler also supports stacking of text over existing images,
+but this is not exposed to the handler directly (yet).
 
 Sample usage
 ------------
